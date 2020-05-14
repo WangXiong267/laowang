@@ -27,6 +27,7 @@ class ShiXian extends AbstractWang{
     public static void main(String[] args) {
         AbstractWang wang=new ShiXian();
         wang.eat();
+		System.out.println("多加了一行代码");
 
     }
 }
